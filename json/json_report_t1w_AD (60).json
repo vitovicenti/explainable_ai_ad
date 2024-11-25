@@ -1,0 +1,20 @@
+[
+    {
+        "Models_used": {
+            "Classification_model": "DenseNet121",
+            "Visual_explainability_model": "GradCAM"
+        },
+        "Data": {
+            "Scan_type": "T1w",
+            "Label_predicted": "AD"
+        },
+        "Metrics": {
+            "ROC_AUC": 0.61,
+            "accuracy": 0.34,
+            "precision": 0.36,
+            "recall": 0.34,
+            "f1_score": 0.34
+        },
+        "Visual_heatmaps": "{\"Region\":\"GM Medial geniculate body\",\"%_Heatmap\":5.5653152316,\"%_Region\":18.7160875773}\n{\"Region\":\"GM Anterior intra-parietal sulcus hIP3\",\"%_Heatmap\":4.1579758373,\"%_Region\":32.1276741166}\n{\"Region\":\"WM Acoustic radiation\",\"%_Heatmap\":3.8048583727,\"%_Region\":13.7161115044}\n{\"Region\":\"GM Broca's area BA44\",\"%_Heatmap\":2.027064083,\"%_Region\":18.5768251755}\n{\"Region\":\"WM Callosal body\",\"%_Heatmap\":1.258379021,\"%_Region\":17.2361151498}\n{\"Region\":\"GM Secondary somatosensory cortex \\/ Parietal operculum OP3\",\"%_Heatmap\":0.9877028081,\"%_Region\":13.7184559058}\n{\"Region\":\"WM Superior longitudinal fascicle\",\"%_Heatmap\":0.6903127991,\"%_Region\":27.7229129663}\n{\"Region\":\"WM Cingulum\",\"%_Heatmap\":0.5277301588,\"%_Region\":2.1950609289}\n{\"Region\":\"GM Secondary somatosensory cortex \\/ Parietal operculum OP2\",\"%_Heatmap\":0.2915518946,\"%_Region\":6.5030384342}\n{\"Region\":\"GM Primary somatosensory cortex BA3a\",\"%_Heatmap\":0.2735068138,\"%_Region\":1.6203242745}\n{\"Region\":\"GM Primary auditory cortex TE1.2\",\"%_Heatmap\":0.2176024456,\"%_Region\":1.2683288993}\n{\"Region\":\"GM Primary motor cortex BA4p\",\"%_Heatmap\":0.178681683,\"%_Region\":1.2817421541}\n{\"Region\":\"GM Primary auditory cortex TE1.1\",\"%_Heatmap\":0.1733743063,\"%_Region\":6.7829457364}\n{\"Region\":\"GM Primary motor cortex BA4a\",\"%_Heatmap\":0.155506138,\"%_Region\":1.1884641906}\n{\"Region\":\"WM Corticospinal tract\",\"%_Heatmap\":0.1496680236,\"%_Region\":2.9437349943}\n{\"Region\":\"WM Fornix\",\"%_Heatmap\":0.1344535436,\"%_Region\":4.9453409682}\n{\"Region\":\"GM Visual cortex V5\",\"%_Heatmap\":0.1034938461,\"%_Region\":1.7548069712}\n{\"Region\":\"GM Inferior parietal lobule PFm\",\"%_Heatmap\":0.0870409783,\"%_Region\":1.6621060099}\n{\"Region\":\"GM Primary somatosensory cortex BA2\",\"%_Heatmap\":0.0711188481,\"%_Region\":0.8125644291}\n{\"Region\":\"GM Lateral geniculate body\",\"%_Heatmap\":0.0548428928,\"%_Region\":10.1973684211}\n{\"Region\":\"WM Superior occipito-frontal fascicle\",\"%_Heatmap\":0.0070765023,\"%_Region\":0.4960932655}\n{\"Region\":\"WM Inferior occipito-frontal fascicle\",\"%_Heatmap\":0.0054842893,\"%_Region\":0.0209000506}\n{\"Region\":\"GM Premotor cortex BA6\",\"%_Heatmap\":0.0051304642,\"%_Region\":0.1439205955}\n"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "Models_used": {
+            "Classification_model": "DenseNet121",
+            "Visual_explainability_model": "GradCAM"
+        },
+        "Data": {
+            "Scan_type": "T1w",
+            "Label_predicted": "cMCI"
+        },
+        "Metrics": {
+            "ROC_AUC": 0.61,
+            "accuracy": 0.34,
+            "precision": 0.36,
+            "recall": 0.34,
+            "f1_score": 0.34
+        },
+        "Visual_heatmaps": "{\"Region\":\"WM Acoustic radiation\",\"%_Heatmap\":2.3423149135,\"%_Region\":2.9438587764}\n{\"Region\":\"WM Corticospinal tract\",\"%_Heatmap\":0.4292890851,\"%_Region\":2.9437349943}\n{\"Region\":\"WM Superior longitudinal fascicle\",\"%_Heatmap\":0.28314812,\"%_Region\":3.9644760213}\n{\"Region\":\"WM Callosal body\",\"%_Heatmap\":0.1918100167,\"%_Region\":0.915963943}\n{\"Region\":\"GM Lateral geniculate body\",\"%_Heatmap\":0.1273659106,\"%_Region\":8.2565789474}\n{\"Region\":\"WM Cingulum\",\"%_Heatmap\":0.0608920688,\"%_Region\":0.0883028198}\n{\"Region\":\"WM Inferior occipito-frontal fascicle\",\"%_Heatmap\":0.0157304511,\"%_Region\":0.0209000506}\n"
+    }
+]
+
+
+
+
